@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Exercício Plugin JQuery - Formulário de cadastro</title>
+</head>
+<body>
+
+    <section id="form">
+        <div class="container jumbotron mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="text-center pb-4">Cadastre-se</h1>
+                    <div class="image-form img-fluid">
+                        <img src="/images/undraw_team_up_re_84ok.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" class="form-group ">
+                        <label for="Nome-completo">Nome completo:</label>
+                        <input type="text" class="form-control form-control-lg mb-2" id="nome" name="nome" placeholder="Nome completo">
+                        <hr>
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control form-control-lg mb-2" id="email" name="email" placeholder="exemplo@exemplo.com">
+                        <hr>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" class="form-control form-control-lg mb-2" id="telefone" name="telefone">
+                        <hr>
+                        <label for="CPF">CPF:</label>
+                        <input type="text" class="form-control form-control-lg mb-2" id="CPF" name="CPF">
+                        <hr>
+                        <label for="endereco">Endereço completo:</label>
+                        <input type="text" class="form-control form-control-lg mb-2" id="endereco" name="endereco" placeholder="Rua Exemplo, n 1234, Bairro: Exemplo - Cidade/Estado ">
+                        <hr>
+                        <label for="CEP">CEP:</label>
+                        <input type="text" class="form-control form-control-lg mb-2" id="CEP" name="CEP">
+                        <hr>
+                        <button type="submit" class="btn btn-dark btn-lg btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/messages_pt_PT.min.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
