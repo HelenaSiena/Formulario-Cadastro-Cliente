@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
+
 
 body { 
     background-color: #0c0ce94d;
+    font-family: 'Inter', sans-serif;
 }
 .jumbotron { 
     background: #fde3a7d7;
@@ -32,16 +28,29 @@ a {
 /*Media Queries*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+    body img { 
+        display: none;
+    }
 
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+    body img { 
+        display: none;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {        
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    *{ 
+        box-sizing: content-box;
+        justify-content: center;
+        margin: auto;
+    }
+    body img { 
+        width: 400px;
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
